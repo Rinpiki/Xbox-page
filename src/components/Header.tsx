@@ -7,7 +7,7 @@ function Header() {
       <img
         src={logo}
         alt="xbox"
-        className="my-[24px] mx-auto md:my-0 md:mx-0 md:w-24"
+        className="my-[24px] mx-auto md:my-0 md:mx-0 md:w-24 lg:w-32"
       />
       <ul
         id="ul"
@@ -28,7 +28,7 @@ function Header() {
       </ul>
       <div
         id="btn"
-        className="text-xs py-3 px-[78px] bg-[#9AF10C] mt-[56px] md:mt-0 md:px-[30px] text-[#0C0C0C] font-bold text-center md:font-extrabold"
+        className="text-xs py-3 px-[78px] bg-[#9AF10C] mt-[56px] md:mt-0 md:px-[30px] text-[#0C0C0C] font-extrabold text-center"
       >
         VER DISPONIBILIDADE
       </div>
