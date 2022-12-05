@@ -24,8 +24,13 @@ body > div {
   flex-direction: column;
 }
 
+#btn {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
 #xbox {
-  background: linear-gradient(0deg, #0d100c 0%, rgba(13, 16, 12, 0) 100%);
+  z-index: -1;
 }
 
 @media (min-width: 360px) {
@@ -42,6 +47,11 @@ body > div {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 12px;
+  }
+  #btn:hover {
+    background-color: #161816;
+    color: #9af10b;
+    transform: translateY(-3px);
   }
   body {
     background: #0c0d0c;

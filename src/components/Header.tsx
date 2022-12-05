@@ -13,16 +13,16 @@ function Header() {
         id="ul"
         className="text-[8px] mb:text-[10px] text-white flex space-x-5 md:space-x-9"
       >
-        <li className="bg-[#67676763] py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
+        <li className="bg-[#67676763] cursor-pointer py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
           VISÃO GERAL
         </li>
-        <li className="bg-[#67676763] py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
+        <li className="bg-[#67676763] cursor-pointer py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
           JOGOS
         </li>
-        <li className="bg-[#67676763] py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
+        <li className="bg-[#67676763] cursor-pointer py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
           GALERIA
         </li>
-        <li className="bg-[#67676763] py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
+        <li className="bg-[#67676763] cursor-pointer py-[6px] px-[10px] rounded-2xl md:py-0 md:px-0 md:bg-inherit">
           UNBOX
         </li>
       </ul>

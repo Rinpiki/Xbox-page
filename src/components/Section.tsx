@@ -6,10 +6,16 @@ function Section() {
   return (
     <section className="mt-6 md:mt-[100px] flex justify-center flex-col">
       <div className="block text-center">
-        <h1 className="text-4xl text-white font-semibold md:text-5xl lg:text-7xl">
+        <h1
+          id="sectionh1"
+          className="text-4xl text-white font-semibold mbx: md:text-5xl lg:text-7xl"
+        >
           Xbox series X
         </h1>
-        <p className="text-[#9BF00B] mb-1 text-base mt-1 font-semibold md:text-base md:mt-4 lg:text-2xl">
+        <p
+          id="sectionp"
+          className="text-[#9BF00B] mb-1 text-base mt-1 font-semibold md:text-base md:mt-4 lg:text-2xl"
+        >
           PEDIDO ANTECIPADO
         </p>
       </div>
