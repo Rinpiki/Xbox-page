@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
 import SectionControl from './components/SectionControl';
+import SectionImg from './components/SectionImg';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Section />
       <SectionControl />
+      <SectionImg />
     </>
   );
 }

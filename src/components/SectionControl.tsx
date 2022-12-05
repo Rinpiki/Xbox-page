@@ -3,7 +3,7 @@ import control from '../imgs/controle-xbox.svg';
 
 function SectionControl() {
   return (
-    <div className="mt-[58px] w-11/12 flex flex-col items-center md:flex-row text-left md:justify-between mb-[324px] lg:mt-[200px]">
+    <div className="mt-[58px] w-11/12 flex flex-col items-center md:flex-row text-left md:justify-between mb-[90px] lg:mt-[200px]">
       <div className="text-[24px] text-center font-semibold text-[#9BF00B] md:text-[42px] md:text-left md:mr-10 lg:text-[64px] lg:mr-40 lg:mb-14">
         Desempenho
         <span className="block text-[#FFFFFF] md:-mt-2 lg:-mt-7 ">
