@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from './CompoFunction/Accordion';
+import Footer from './Footer';
 
 function Perguntas() {
   return (
@@ -24,6 +25,7 @@ function Perguntas() {
           resposta="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         />
       </div>
+      <Footer />
     </div>
   );
 }
