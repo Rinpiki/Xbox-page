@@ -9,7 +9,10 @@ function Perguntas() {
         <span className="text-[#FFFFFF] text-2xl font-semibold">
           frequentes
         </span>
-        <Accordion />
+        <Accordion
+          pergunta="Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?"
+          resposta="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        />
       </div>
     </div>
   );
