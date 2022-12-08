@@ -17,11 +17,15 @@ function Accordion({ pergunta, resposta }: props) {
     <div>
       <div>
         <div className="flex mt-10 mb-[21px] justify-between">
-          <span className="text-xs  text-[#FFFFFF]">{pergunta}</span>
+          <span className="text-xs  text-[#FFFFFF] mr-2 md:text-2xl">
+            {pergunta}
+          </span>
           <img src={down} alt="icone pra baixo" id="up" onClick={set} />
         </div>
         {open ? (
-          <p className="text-xs text-[#C0C0C0] mb-[22px]">{resposta}</p>
+          <p className="text-xs text-[#C0C0C0] mb-[22px] md:text-lg">
+            {resposta}
+          </p>
         ) : null}
         <div className="bg-[#2E2E2E] w-full h-[2px] mb-[23px]"> </div>
       </div>
