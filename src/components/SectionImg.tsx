@@ -6,7 +6,7 @@ import fourText from '../imgs/games/fourtext.png';
 
 function SectionImg() {
   return (
-    <div className="flex flex-col space-y-8 mb-28 md:flex-wrap md:flex-row md:justify-center md:space-y-0 ">
+    <div className="flex flex-col space-y-8 mb-[90px] md:flex-wrap md:flex-row md:justify-center md:space-y-0 ">
       <div className="bg-one w-[312px] h-[497px] md:mr-10 md:mb-10 lg:mb-0 lg:mr-0 ">
         <img
           src={oneText}

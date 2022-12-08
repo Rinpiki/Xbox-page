@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import SectionControl from './components/SectionControl';
 import SectionImg from './components/SectionImg';
+import Perguntas from './components/Perguntas';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Section />
       <SectionControl />
       <SectionImg />
+      <Perguntas />
     </>
   );
 }
