@@ -1,5 +1,5 @@
 # Xbox-page
-https://github.com/Rinpiki/Xbox-page/issues/1#issue-1484986444
+![Screenshot_13](https://user-images.githubusercontent.com/74790193/206506843-239a3a73-3401-4088-8141-ec0c4466720f.png)
 # 📖 Sobre o projeto
 Este projecto é um website para um restaurante de hambúrgueres feito com React e Tailwind. Foi criado para praticar usando React e Tailwind juntos. O site web é simples, com apenas uma página.
 - Seção de promoções
