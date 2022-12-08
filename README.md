@@ -1,11 +1,9 @@
 # Xbox-page
 ![Screenshot_13](https://user-images.githubusercontent.com/74790193/206506843-239a3a73-3401-4088-8141-ec0c4466720f.png)
 # 📖 Sobre o projeto
-Este projecto é um website para um restaurante de hambúrgueres feito com React e Tailwind. Foi criado para praticar usando React e Tailwind juntos. O site web é simples, com apenas uma página.
-- Seção de promoções
-- Horário de funcionamento
-- Localização
-- Contato
+Nosso site é totalmente responsivo, o que significa que ele se adapta a qualquer tamanho de tela, permitindo que você aproveite todos os recursos que ele oferece, independentemente do dispositivo que você estiver usando.
+- Além disso, nosso site possui seções de dúvidas, Também temos uma seção de fotos de jogos, para que você possa ver alguns jogos do catálogo.
+Por fim, nosso site foi construído com React, TypeScript, Tailwind e outras.
 
 ## 🔧Tecnologias usadas
 
