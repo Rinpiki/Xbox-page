@@ -32,7 +32,7 @@ body > div {
 #xbox {
   z-index: -1;
 }
-
+/*
 #up {
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -42,7 +42,7 @@ body > div {
   transform: rotate(180deg);
   fill: #9af10b;
 }
-
+*/
 @media (min-width: 360px) {
   #btn {
     padding-left: 95px;
