@@ -32,12 +32,12 @@ body > div {
 #xbox {
   z-index: -1;
 }
-/*
+
 #up {
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
-
+/*
 #up:hover {
   transform: rotate(180deg);
   fill: #9af10b;
