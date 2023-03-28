@@ -8,6 +8,8 @@ function Header() {
         src={logo}
         alt="xbox"
         className="my-[24px] mx-auto md:my-0 md:mx-0 md:w-24 lg:w-32"
+        width={70}
+        height={20}
       />
       <ul
         id="ul"

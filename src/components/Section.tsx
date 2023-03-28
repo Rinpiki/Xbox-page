@@ -19,12 +19,19 @@ function Section() {
           PEDIDO ANTECIPADO
         </p>
       </div>
-      <img id="xbox" src={xbox} alt="imagem de xbox" className="md:hidden" />
+      <img
+        id="xbox"
+        src={xbox}
+        alt="imagem de xbox"
+        className="md:hidden"
+        width={268}
+        height={165}
+      />
       <img
         id="xbox"
         src={deskbox}
         alt="imagem de xbox"
-        className="hidden md:block lg:w-auto"
+        className="hidden md:block lg:w-full"
         width={716}
         height={346}
       />
