@@ -1,20 +1,19 @@
-import React from 'react';
-import xbox from '../imgs/xbox.png';
-import deskbox from '../imgs/deskbox.png';
+import xbox from '../imgs/xbox.png'
+import deskbox from '../imgs/deskbox.png'
 
 function Section() {
   return (
-    <section className="mt-6 md:mt-[100px] flex justify-center flex-col">
+    <section className="mt-6 flex flex-col justify-center md:mt-[100px]">
       <div className="block text-center">
         <h1
           id="sectionh1"
-          className="text-4xl text-white font-semibold mbx: md:text-5xl lg:text-7xl"
+          className="mbx: text-4xl font-semibold text-white md:text-5xl lg:text-7xl"
         >
           Xbox series X
         </h1>
         <p
           id="sectionp"
-          className="text-[#9BF00B] mb-1 text-base mt-1 font-semibold md:text-base md:mt-4 lg:text-2xl"
+          className="mb-1 mt-1 text-base font-semibold text-[#9BF00B] md:mt-4 md:text-base lg:text-2xl"
         >
           PEDIDO ANTECIPADO
         </p>
@@ -27,7 +26,7 @@ function Section() {
         className="hidden md:block"
       />
     </section>
-  );
+  )
 }
 
-export default Section;
+export default Section
