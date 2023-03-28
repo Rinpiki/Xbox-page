@@ -24,7 +24,9 @@ function Section() {
         id="xbox"
         src={deskbox}
         alt="imagem de xbox"
-        className="hidden md:block"
+        className="hidden md:block lg:w-auto"
+        width={716}
+        height={346}
       />
     </section>
   );
