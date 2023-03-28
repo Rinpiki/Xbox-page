@@ -1,5 +1,5 @@
-import xbox from '../imgs/xbox.png'
-import deskbox from '../imgs/deskbox.png'
+import xbox from '~/assets/imgs/xbox.png'
+import deskbox from '~/assets/imgs/deskbox.avif'
 
 function Section() {
   return (
@@ -7,7 +7,7 @@ function Section() {
       <div className="block text-center">
         <h1
           id="sectionh1"
-          className="mbx: text-4xl font-semibold text-white md:text-5xl lg:text-7xl"
+          className="text-4xl font-semibold text-white md:text-5xl lg:text-7xl"
         >
           Xbox series X
         </h1>
@@ -18,12 +18,19 @@ function Section() {
           PEDIDO ANTECIPADO
         </p>
       </div>
-      <img id="xbox" src={xbox} alt="imagem de xbox" className="md:hidden" />
       <img
-        id="xbox"
+        src={xbox}
+        alt="imagem de xbox"
+        className="-z-[1] md:hidden"
+        width={268}
+        height={165}
+      />
+      <img
         src={deskbox}
         alt="imagem de xbox"
-        className="hidden md:block"
+        className="-z-[1] hidden md:block"
+        width={1235}
+        height={597}
       />
     </section>
   )

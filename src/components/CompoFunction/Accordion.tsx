@@ -1,7 +1,5 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useState } from 'react'
-import down from '../../imgs/icondown.svg'
+import down from '~/assets/imgs/icondown.svg'
 
 interface props {
   pergunta: string

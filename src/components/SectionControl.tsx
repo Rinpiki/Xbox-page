@@ -1,4 +1,4 @@
-import control from '../imgs/controle-xbox.svg'
+import control from '~/assets/imgs/controle-xbox.webp'
 
 function SectionControl() {
   return (

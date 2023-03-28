@@ -1,4 +1,4 @@
-import xbox from '../imgs/logo.svg'
+import xbox from '~/assets/imgs/logo.svg'
 
 function Footer() {
   return (

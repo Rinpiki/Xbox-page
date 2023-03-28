@@ -1,7 +1,7 @@
-import oneText from '../imgs/games/onetext.png'
-import twoText from '../imgs/games/twotext.png'
-import threeText from '../imgs/games/threetext.png'
-import fourText from '../imgs/games/fourtext.png'
+import oneText from '~/assets/imgs/games/onetext.png'
+import twoText from '~/assets/imgs/games/twotext.png'
+import threeText from '~/assets/imgs/games/threetext.png'
+import fourText from '~/assets/imgs/games/fourtext.png'
 
 function SectionImg() {
   return (

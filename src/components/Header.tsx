@@ -1,4 +1,4 @@
-import logo from '../imgs/logo.svg'
+import logo from '~/assets/imgs/logo.svg'
 
 function Header() {
   return (
@@ -7,10 +7,12 @@ function Header() {
         src={logo}
         alt="xbox"
         className="mx-auto my-[24px] md:mx-0 md:my-0 md:w-24 lg:w-32"
+        width={70}
+        height={20}
       />
       <ul
         id="ul"
-        className="flex space-x-5 text-[8px] text-white mb:text-[10px] md:space-x-9"
+        className="mb:text-[10px] flex space-x-5 text-[8px] text-white md:space-x-9"
       >
         <li className="cursor-pointer rounded-2xl bg-[#67676763] px-[10px] py-[6px] md:bg-inherit md:px-0 md:py-0">
           VISÃO GERAL
