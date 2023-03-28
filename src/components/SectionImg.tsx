@@ -1,42 +1,41 @@
-import React from 'react';
-import oneText from '../imgs/games/onetext.png';
-import twoText from '../imgs/games/twotext.png';
-import threeText from '../imgs/games/threetext.png';
-import fourText from '../imgs/games/fourtext.png';
+import oneText from '~/assets/imgs/games/onetext.png'
+import twoText from '~/assets/imgs/games/twotext.png'
+import threeText from '~/assets/imgs/games/threetext.png'
+import fourText from '~/assets/imgs/games/fourtext.png'
 
 function SectionImg() {
   return (
-    <div className="flex flex-col space-y-8 mb-[90px] md:flex-wrap md:flex-row md:justify-center md:space-y-0 ">
-      <div className="bg-one w-[312px] h-[497px] md:mr-10 md:mb-10 lg:mb-0 lg:mr-0 ">
+    <div className="mb-[90px] flex flex-col space-y-8 md:flex-row md:flex-wrap md:justify-center md:space-y-0 ">
+      <div className="h-[497px] w-[312px] bg-one md:mb-10 md:mr-10 lg:mb-0 lg:mr-0 ">
         <img
           src={oneText}
           alt="titulo game farcry"
-          className="w-[190px] h-[42px] mx-auto mt-[414px] "
+          className="mx-auto mt-[414px] h-[42px] w-[190px] "
         />
       </div>
-      <div className="bg-two w-[312px] h-[493px] md:mb-10 lg:mb-0">
+      <div className="h-[493px] w-[312px] bg-two md:mb-10 lg:mb-0">
         <img
           src={twoText}
           alt="titulo game forza"
-          className="w-[195px] h-[54px] mx-auto mt-[414px]"
+          className="mx-auto mt-[414px] h-[54px] w-[195px]"
         />
       </div>
-      <div className="bg-three w-[312px] h-[497px] md:mr-10 lg:mb-0 lg:mr-0">
+      <div className="h-[497px] w-[312px] bg-three md:mr-10 lg:mb-0 lg:mr-0">
         <img
           src={threeText}
           alt="titulo game fifa"
-          className="w-[130px] h-[42px] mx-auto mt-[434px]"
+          className="mx-auto mt-[434px] h-[42px] w-[130px]"
         />
       </div>
-      <div className="bg-four w-[312px] h-[497px]">
+      <div className="h-[497px] w-[312px] bg-four">
         <img
           src={fourText}
           alt="titulo game minecraft"
-          className="w-[195px] h-[32px] mx-auto mt-[444px]"
+          className="mx-auto mt-[444px] h-[32px] w-[195px]"
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default SectionImg;
+export default SectionImg
